@@ -15,3 +15,4 @@ class Cat:
     
     def get_attitude(self):
         print(self.feeling)
+        print("Cats are awesome")
