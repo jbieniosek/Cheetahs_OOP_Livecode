@@ -9,6 +9,7 @@ class Dog:
         self.num_pets = 0
     
     def about(self):
+        #self.name = "Spot"
         print(f"This is a dog named {self.name}")
         print(f"{self.name} is {self.age} years old")
     
