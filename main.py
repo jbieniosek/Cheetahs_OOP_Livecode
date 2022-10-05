@@ -7,13 +7,18 @@ from human import Human
 petey = Persian("Petey", "sleepy")
 coral = Corgi("Coral", 1, "brown", [petey], "small")
 pumpkin = Corgi("Pumpkin", 10, "black", [petey], "large")
+
 print(f"Coral has a cat named {coral.num_pets[0].name}")
 print(coral.human)
 print(pumpkin.human)
+
 coral.human.add_name("Ada")
 pumpkin.human.add_name("Nancy")
 print(coral.human.name)
 print(pumpkin.human.name)
+
+print(f"{coral.human.name} has {coral.human.pets[0].name}")
+print(f"{pumpkin.human.name} has {pumpkin.human.pets[0].name}")
 
 # moana = Human("Moana", [petey, coral])
 

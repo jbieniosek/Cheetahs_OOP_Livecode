@@ -8,6 +8,7 @@ class Dog:
         self.color = color
         self.num_pets = num_pets
         self.human = Human()
+        self.human.add_pets([self])
     
     def about(self):
         #self.name = "Spot"
