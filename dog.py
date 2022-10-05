@@ -1,12 +1,13 @@
-
+from human import Human
 
 class Dog:
-    def __init__(self, name, breed, age, color):
+    def __init__(self, name, breed, age, color, num_pets):
         self.name = name
         self.breed = breed
         self.age = age
         self.color = color
-        self.num_pets = 0
+        self.num_pets = num_pets
+        self.human = Human()
     
     def about(self):
         #self.name = "Spot"

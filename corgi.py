@@ -2,8 +2,8 @@ from dog import Dog
 
 class Corgi(Dog):
 
-    def __init__(self, name, age, color, size):
-        super().__init__(name, "Corgi", age, color)
+    def __init__(self, name, age, color, num_pets, size):
+        super().__init__(name, "Corgi", age, color, num_pets)
         self.size = size
     
     def about(self):
